@@ -150,11 +150,9 @@ def display_raw_data(df): #Displaying rows from raw data upon user request, unti
     data = 0
 
     while True:
-        answer = input('Would you like to see 5 lines of raw data? Enter yes or no: ')
-        if answer.lower() == 'yes':
+        if input('Would you like to see 5 lines of raw data? Enter yes or no: ').lower() == 'yes':
             print(df[data : data+5])
             data += 5
-
         else:
             break
       
