@@ -65,8 +65,6 @@ def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city])
     
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-    
-    
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     
@@ -142,13 +140,20 @@ def trip_duration_stats(df):
 
     
 def display_raw_data(df): #Displaying rows from raw data upon user request, until typing 'no'
+    """
+    Asks user if they want to see 5 lines of raw data.
+    Returns the 5 lines of raw data if user inputs `yes`. Iterate until user response with a `no`
+    """    
 
-    counter=0
-    while (input('\nWould you like to see rows from raw data? Enter \'yes\' or \'no\'.\n').lower().strip() == 'yes'):
-        print(df.iloc[counter : counter+5])
-        counter+=5
+    data = 0
 
-        
+    while True:
+        if input('Would you like to see 5 lines of raw data? Enter yes or no: \n').lower() == 'yes':
+            print(df[data : data+5])
+            data += 5
+        else:
+            break
+      
     
 def user_stats(df, city):   #Adding arg'city' to handle the difference in  washington's data 
     """Displays statistics on bikeshare users."""
@@ -189,7 +194,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            print('\nThank you, \nSee you later\n')
+            print('\nThank you, \nSee you later\n\nCode made by:\nNaif Moh \nYou can find me in Github:\ngithub.com/aboezn')
             break
 
 
