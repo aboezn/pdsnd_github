@@ -1,9 +1,10 @@
-### Date created
-Friday, 12-February-2021
-Recent edition in the python file was in 
-Wednesday, 3-February-2021
-Revision Date
-Wednesday, 3-February-2021
+### Dates
+* Date created
+    - Friday, February 12, 2021
+* Recent edition in the python file
+    - Wednesday, February 3, 2021
+* Revision Date
+    - Wednesday, February 3, 2021
 
 ### Project Title
 Explore US Bikeshare Data
