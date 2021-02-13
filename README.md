@@ -13,10 +13,11 @@ Explore US Bikeshare Data
 A python project for data science nanodegree program. It will explore a bike share systems' data for three cities Chicago, New York City, and Washington.
 
 ### Files used
-bikeshare_2.py
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshare_2.py
+- Data files:
+    - chicago.csv
+    - new_york_city.csv
+    - washington.csv
 
 ### Credits
 www.stackoverflow.com
