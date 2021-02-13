@@ -26,3 +26,9 @@ www.towardsdatascience.com
 www.kite.com
 www.w3schools.com
 www.kaggle.com
+
+
+
+### Project made by:
+Naif Moh
+@abo_ezn
