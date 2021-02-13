@@ -20,14 +20,14 @@ A python project for data science nanodegree program. It will explore a bike sha
     - washington.csv
 
 ### Credits
-www.stackoverflow.com
-www.geeksforgeeks.com
-www.pandas.pydata.org
-www.python.org
-www.towardsdatascience.com
-www.kite.com
-www.w3schools.com
-www.kaggle.com
+- [Stackoverflow](https://www.stackoverflow.com)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [Pandas](https://pandas.pydata.org)
+- [Python](https://www.python.org)
+- [Towrds Data Science](https://www.towardsdatascience.com)
+- [Kite](https://www.kite.com)
+- [W3schools](https://www.w3schools.com)
+- [Kaggle](https://www.kaggle.com)
 
 
 
